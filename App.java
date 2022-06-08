@@ -14,10 +14,16 @@ public class App {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        saludo();
+        System.out.println(nota());
     }
     public static boolean saludo() {
         System.out.println("Hola, estoy en la recuperación de PUK");
         
         return true;
+    }
+    
+    public static int nota() {
+        return 10;
     }
 }
